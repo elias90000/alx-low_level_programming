@@ -1,27 +1,27 @@
-void print_alphabet_x10(void);
-{
-char alpa='a';
-a=0;
-while(a<=10)
-{
-	char alpa='a';
-	for(;alpa<='z';++alpa)
-	{
-		printf("%c",alpa);
-	}
-	printf("\n");
-}
-}
-
 #include "main.h"
 
 /**
- *  * main - check the code.
+ *  * print_alphabet_x10 - print alphabet
  *   *
  *    * Return: Always 0.
  *     */
-int main(void)
+void print_alphabet_x10(void)
 {
-	    print_alphabet_x10();
-	        return (0);
+	int alphabet;
+	int count;
+
+
+	count = 0;
+	while (count < 10)
+	{
+		for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+		{
+			_putchar(alphabet);
+		}
+
+		count++;
+		_putchar('\n');
+	}
+
+
 }
