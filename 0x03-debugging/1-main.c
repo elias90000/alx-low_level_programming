@@ -15,7 +15,6 @@ int main(void)
 /*
  *while (i < 10)
  *{
- *infinite loop _ no incremental statement
  *putchar(i);
 }
 */
