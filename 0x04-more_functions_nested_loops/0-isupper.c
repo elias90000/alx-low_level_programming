@@ -1,5 +1,7 @@
 #include "main.h"
-
+/*
+ * evaluates is letter is uppercase
+ */
 
 int _isupper(int c)
 {
