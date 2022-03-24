@@ -1,9 +1,9 @@
 #include "main.h"
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
-	int i=0;
+	i = 0;
 	while(i < n && src[i] != '\0')
 	{
 		dest[i] = src[i];
