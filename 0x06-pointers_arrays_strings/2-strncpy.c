@@ -1,5 +1,5 @@
 #include "main.h"
- char *_strncpy(char *dest, char)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 
